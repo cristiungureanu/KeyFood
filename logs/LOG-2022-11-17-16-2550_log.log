@@ -1,0 +1,34 @@
+16:25:50.823 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+16:25:50.833 [TestNG-tests-1] INFO  utils.Log - +++ Started test case: loginTest
+16:25:50.833 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+16:25:50.833 [TestNG-tests-1] INFO  utils.Log - Start time: 2022.11.17.16.25.50
+16:25:50.833 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+16:25:52.114 [TestNG-tests-1] INFO  utils.Log - Called <waitForElementToBeVisible> on element <input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username" id="username" autocomplete="username" value="">
+16:25:52.147 [TestNG-tests-1] INFO  utils.Log - called <clear> on element <input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username" id="username" autocomplete="username" value="">
+16:25:52.183 [TestNG-tests-1] INFO  utils.Log - Called <sendKeys> on element <input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username" id="username" autocomplete="username" value="">
+16:25:52.246 [TestNG-tests-1] INFO  utils.Log - Called <waitForElementToBeVisible> on element <input class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="password" id="password" autocomplete="current-password">
+16:25:52.273 [TestNG-tests-1] INFO  utils.Log - called <clear> on element <input class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="password" id="password" autocomplete="current-password">
+16:25:52.310 [TestNG-tests-1] INFO  utils.Log - Called <sendKeys> on element <input class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="password" id="password" autocomplete="current-password">
+16:25:52.375 [TestNG-tests-1] INFO  utils.Log - Called method <click()> on element <button type="submit" class="woocommerce-button button woocommerce-form-login__submit" name="login" value="Log in">Log in</button>
+16:25:52.386 [TestNG-tests-1] INFO  utils.Log - Called <waitForElementToBeClickable><button type="submit" class="woocommerce-button button woocommerce-form-login__submit" name="login" value="Log in">Log in</button>
+16:25:53.775 [TestNG-tests-1] INFO  utils.Log - Called method <click()> on element <input id="dgwt-wcas-search-input-1" type="search" class="dgwt-wcas-search-input" name="s" value="" placeholder="Search for products..." autocomplete="off">
+16:25:53.789 [TestNG-tests-1] INFO  utils.Log - Called <waitForElementToBeClickable><input id="dgwt-wcas-search-input-1" type="search" class="dgwt-wcas-search-input" name="s" value="" placeholder="Search for products..." autocomplete="off">
+16:25:53.871 [TestNG-tests-1] INFO  utils.Log - Called <waitForElementToBeVisible> on element <input id="dgwt-wcas-search-input-1" type="search" class="dgwt-wcas-search-input" name="s" value="" placeholder="Search for products..." autocomplete="off">
+16:25:53.901 [TestNG-tests-1] INFO  utils.Log - called <clear> on element <input id="dgwt-wcas-search-input-1" type="search" class="dgwt-wcas-search-input" name="s" value="" placeholder="Search for products..." autocomplete="off">
+16:25:53.936 [TestNG-tests-1] INFO  utils.Log - Called <sendKeys> on element <input id="dgwt-wcas-search-input-1" type="search" class="dgwt-wcas-search-input" name="s" value="" placeholder="Search for products..." autocomplete="off">
+16:26:09.639 [TestNG-tests-1] ERROR utils.Log - ++++++++++++++++++++++++++++++++++++
+16:26:09.639 [TestNG-tests-1] ERROR utils.Log - +++ Failed test case: loginTest
+16:26:09.639 [TestNG-tests-1] ERROR utils.Log - ++++++++++++++++++++++++++++++++++++
+16:26:09.640 [TestNG-tests-1] ERROR utils.Log - End time: 2022.11.17.16.26.09
+16:26:09.644 [TestNG-tests-1] ERROR utils.Log - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"li[class='woocommerce-MyAccount-navigation-link woocommerce-MyAccount-navigation-link--customer-logout']"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'SFTLCRPC085', ip: '192.168.101.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [18a2bedca4db692230c7e7a4e3758be9, findElement {using=css selector, value=li[class='woocommerce-MyAccount-navigation-link woocommerce-MyAccount-navigation-link--customer-logout']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\CRISTI~1.UNG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:54341}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54341/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 18a2bedca4db692230c7e7a4e3758be9
+16:26:09.644 [TestNG-tests-1] ERROR utils.Log - ++++++++++++++++++++++++++++++++++++
+16:26:09.786 [TestNG-tests-1] ERROR utils.Log - could not save picture!
+16:26:09.786 [TestNG-tests-1] ERROR utils.Log - screenshots\loginTest.png (The system cannot find the path specified)

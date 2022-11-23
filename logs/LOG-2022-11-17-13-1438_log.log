@@ -1,0 +1,26 @@
+13:14:38.814 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+13:14:38.818 [TestNG-tests-1] INFO  utils.Log - +++ Started test case: loginTest
+13:14:38.818 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+13:14:38.818 [TestNG-tests-1] INFO  utils.Log - Start time: 2022.11.17.13.14.38
+13:14:38.818 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+13:14:39.959 [TestNG-tests-1] INFO  utils.Log - Called <waitForElementToBeVisible> on element <input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username" id="username" autocomplete="username" value="">
+13:14:39.996 [TestNG-tests-1] INFO  utils.Log - called <clear> on element <input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username" id="username" autocomplete="username" value="">
+13:14:40.032 [TestNG-tests-1] INFO  utils.Log - Called <sendKeys> on element <input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username" id="username" autocomplete="username" value="">
+13:14:40.092 [TestNG-tests-1] INFO  utils.Log - Called <waitForElementToBeVisible> on element <input class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="password" id="password" autocomplete="current-password">
+13:14:40.115 [TestNG-tests-1] INFO  utils.Log - called <clear> on element <input class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="password" id="password" autocomplete="current-password">
+13:14:40.153 [TestNG-tests-1] INFO  utils.Log - Called <sendKeys> on element <input class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="password" id="password" autocomplete="current-password">
+13:14:40.209 [TestNG-tests-1] INFO  utils.Log - Called method <click()> on element <button type="submit" class="woocommerce-button button woocommerce-form-login__submit" name="login" value="Log in">Log in</button>
+13:14:40.218 [TestNG-tests-1] INFO  utils.Log - Called <waitForElementToBeClickable><button type="submit" class="woocommerce-button button woocommerce-form-login__submit" name="login" value="Log in">Log in</button>
+13:14:41.700 [TestNG-tests-1] INFO  utils.Log - Called method <click()> on element <input id="dgwt-wcas-search-input-1" type="search" class="dgwt-wcas-search-input" name="s" value="" placeholder="Search for products..." autocomplete="off">
+13:14:41.710 [TestNG-tests-1] INFO  utils.Log - Called <waitForElementToBeClickable><input id="dgwt-wcas-search-input-1" type="search" class="dgwt-wcas-search-input" name="s" value="" placeholder="Search for products..." autocomplete="off">
+13:14:41.775 [TestNG-tests-1] INFO  utils.Log - Called <waitForElementToBeVisible> on element <input id="dgwt-wcas-search-input-1" type="search" class="dgwt-wcas-search-input" name="s" value="" placeholder="Search for products..." autocomplete="off">
+13:14:41.798 [TestNG-tests-1] INFO  utils.Log - called <clear> on element <input id="dgwt-wcas-search-input-1" type="search" class="dgwt-wcas-search-input" name="s" value="" placeholder="Search for products..." autocomplete="off">
+13:14:41.835 [TestNG-tests-1] INFO  utils.Log - Called <sendKeys> on element <input id="dgwt-wcas-search-input-1" type="search" class="dgwt-wcas-search-input" name="s" value="" placeholder="Search for products..." autocomplete="off">
+13:14:44.884 [TestNG-tests-1] ERROR utils.Log - ++++++++++++++++++++++++++++++++++++
+13:14:44.884 [TestNG-tests-1] ERROR utils.Log - +++ Failed test case: loginTest
+13:14:44.884 [TestNG-tests-1] ERROR utils.Log - ++++++++++++++++++++++++++++++++++++
+13:14:44.884 [TestNG-tests-1] ERROR utils.Log - End time: 2022.11.17.13.14.44
+13:14:44.885 [TestNG-tests-1] ERROR utils.Log - java.lang.AssertionError: expected [https://keyfood.ro/product/rold-gold-tiny-twists-pretzels/] but found [https://keyfood.ro/my-account-2/]
+13:14:44.885 [TestNG-tests-1] ERROR utils.Log - ++++++++++++++++++++++++++++++++++++
+13:14:45.020 [TestNG-tests-1] ERROR utils.Log - could not save picture!
+13:14:45.021 [TestNG-tests-1] ERROR utils.Log - screenshots\loginTest.png (The system cannot find the path specified)

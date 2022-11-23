@@ -1,0 +1,38 @@
+16:52:32.814 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+16:52:32.818 [TestNG-tests-1] INFO  utils.Log - +++ Started test case: loginTest
+16:52:32.819 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+16:52:32.819 [TestNG-tests-1] INFO  utils.Log - Start time: 2022.11.14.16.52.32
+16:52:32.819 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+16:52:34.092 [TestNG-tests-1] INFO  utils.Log - Called <waitForElementToBeVisible> on element <div class="button-icon"><i class="klbth-icon-user"></i></div>
+16:52:34.125 [TestNG-tests-1] INFO  utils.Log - called <clear> on element <div class="button-icon"><i class="klbth-icon-user"></i></div>
+16:52:34.137 [TestNG-tests-1] ERROR utils.Log - Element not found in method <SendKeys>]
+16:52:34.138 [TestNG-tests-1] ERROR utils.Log - invalid element state
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'SFTLCRPC085', ip: '192.168.101.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1827c879a940232df5cc1cae6937b61b, clearElement {id=98b86103-795e-4817-b522-88e36952d537}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\CRISTI~1.UNG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50548}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50548/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (1827c879a940232df5cc1cae6937b61b)] -> css selector: div[class='button-icon']]
+Session ID: 1827c879a940232df5cc1cae6937b61b
+16:52:34.161 [TestNG-tests-1] INFO  utils.Log - Called <waitForElementToBeVisible> on element <input class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="password" id="password" autocomplete="current-password">
+16:52:34.191 [TestNG-tests-1] INFO  utils.Log - called <clear> on element <input class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="password" id="password" autocomplete="current-password">
+16:52:34.242 [TestNG-tests-1] INFO  utils.Log - Called <sendKeys> on element <input class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="password" id="password" autocomplete="current-password">
+16:52:34.327 [TestNG-tests-1] INFO  utils.Log - Called method <click()> on element <button type="submit" class="woocommerce-button button woocommerce-form-login__submit" name="login" value="Log in">Log in</button>
+16:52:34.345 [TestNG-tests-1] INFO  utils.Log - Called <waitForElementToBeClickable><button type="submit" class="woocommerce-button button woocommerce-form-login__submit" name="login" value="Log in">Log in</button>
+16:52:45.220 [TestNG-tests-1] ERROR utils.Log - ++++++++++++++++++++++++++++++++++++
+16:52:45.220 [TestNG-tests-1] ERROR utils.Log - +++ Failed test case: loginTest
+16:52:45.220 [TestNG-tests-1] ERROR utils.Log - ++++++++++++++++++++++++++++++++++++
+16:52:45.221 [TestNG-tests-1] ERROR utils.Log - End time: 2022.11.14.16.52.45
+16:52:45.222 [TestNG-tests-1] ERROR utils.Log - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"li[class='woocommerce-MyAccount-navigation-link woocommerce-MyAccount-navigation-link--dashboard is-active']"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'SFTLCRPC085', ip: '192.168.101.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1827c879a940232df5cc1cae6937b61b, findElement {using=css selector, value=li[class='woocommerce-MyAccount-navigation-link woocommerce-MyAccount-navigation-link--dashboard is-active']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\CRISTI~1.UNG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50548}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50548/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1827c879a940232df5cc1cae6937b61b
+16:52:45.222 [TestNG-tests-1] ERROR utils.Log - ++++++++++++++++++++++++++++++++++++
+16:52:45.373 [TestNG-tests-1] ERROR utils.Log - could not save picture!
+16:52:45.373 [TestNG-tests-1] ERROR utils.Log - screenshots\loginTest.png (The system cannot find the path specified)

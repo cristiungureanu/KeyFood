@@ -1,0 +1,23 @@
+12:10:35.724 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+12:10:35.730 [TestNG-tests-1] INFO  utils.Log - +++ Started test case: loginTest
+12:10:35.730 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+12:10:35.731 [TestNG-tests-1] INFO  utils.Log - Start time: 2022.11.23.12.10.35
+12:10:35.731 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+12:10:37.218 [TestNG-tests-1] INFO  utils.Log - Called <waitForElementToBeVisible> on element <input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username" id="username" autocomplete="username" value="">
+12:10:37.279 [TestNG-tests-1] INFO  utils.Log - called <clear> on element <input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username" id="username" autocomplete="username" value="">
+12:10:37.340 [TestNG-tests-1] INFO  utils.Log - Called <sendKeys> on element <input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username" id="username" autocomplete="username" value="">
+12:10:37.445 [TestNG-tests-1] INFO  utils.Log - Called <waitForElementToBeVisible> on element <input class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="password" id="password" autocomplete="current-password">
+12:10:37.494 [TestNG-tests-1] INFO  utils.Log - called <clear> on element <input class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="password" id="password" autocomplete="current-password">
+12:10:37.550 [TestNG-tests-1] INFO  utils.Log - Called <sendKeys> on element <input class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="password" id="password" autocomplete="current-password">
+12:10:37.656 [TestNG-tests-1] INFO  utils.Log - Called method <click()> on element <button type="submit" class="woocommerce-button button woocommerce-form-login__submit" name="login" value="Log in">Log in</button>
+12:10:37.677 [TestNG-tests-1] INFO  utils.Log - Called <waitForElementToBeClickable><button type="submit" class="woocommerce-button button woocommerce-form-login__submit" name="login" value="Log in">Log in</button>
+12:10:38.793 [TestNG-tests-1] INFO  utils.Log - Called method <click()> on element <input id="dgwt-wcas-search-input-1" type="search" class="dgwt-wcas-search-input" name="s" value="" placeholder="Search for products..." autocomplete="off">
+12:10:38.817 [TestNG-tests-1] INFO  utils.Log - Called <waitForElementToBeClickable><input id="dgwt-wcas-search-input-1" type="search" class="dgwt-wcas-search-input" name="s" value="" placeholder="Search for products..." autocomplete="off">
+12:10:38.940 [TestNG-tests-1] INFO  utils.Log - Called <waitForElementToBeVisible> on element <input id="dgwt-wcas-search-input-1" type="search" class="dgwt-wcas-search-input" name="s" value="" placeholder="Search for products..." autocomplete="off">
+12:10:38.982 [TestNG-tests-1] INFO  utils.Log - called <clear> on element <input id="dgwt-wcas-search-input-1" type="search" class="dgwt-wcas-search-input" name="s" value="" placeholder="Search for products..." autocomplete="off">
+12:10:39.036 [TestNG-tests-1] INFO  utils.Log - Called <sendKeys> on element <input id="dgwt-wcas-search-input-1" type="search" class="dgwt-wcas-search-input" name="s" value="" placeholder="Search for products..." autocomplete="off">
+12:10:48.039 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+12:10:48.039 [TestNG-tests-1] INFO  utils.Log - +++ Pass test case: loginTest
+12:10:48.040 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+12:10:48.040 [TestNG-tests-1] INFO  utils.Log - End time: 2022.11.23.12.10.48
+12:10:48.040 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++

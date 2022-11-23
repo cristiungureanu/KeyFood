@@ -1,0 +1,98 @@
+15:19:19.767 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+15:19:19.772 [TestNG-tests-1] INFO  utils.Log - +++ Started test case: loginTest
+15:19:19.772 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+15:19:19.773 [TestNG-tests-1] INFO  utils.Log - Start time: 2022.11.11.15.19.19
+15:19:19.773 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+15:19:19.944 [TestNG-tests-1] INFO  utils.Log - Called <waitForElementToBeVisible> on element <input type="text" id="log" name="log" value="" placeholder="Login or Email">
+15:19:19.988 [TestNG-tests-1] INFO  utils.Log - called <clear> on element <input type="text" id="log" name="log" value="" placeholder="Login or Email">
+15:19:20.032 [TestNG-tests-1] INFO  utils.Log - Called <sendKeys> on element <input type="text" id="log" name="log" value="" placeholder="Login or Email">
+15:19:20.155 [TestNG-tests-1] INFO  utils.Log - Called <waitForElementToBeVisible> on element <input type="password" id="password" name="pwd" value="" placeholder="Password">
+15:19:20.200 [TestNG-tests-1] INFO  utils.Log - called <clear> on element <input type="password" id="password" name="pwd" value="" placeholder="Password">
+15:19:20.259 [TestNG-tests-1] INFO  utils.Log - Called <sendKeys> on element <input type="password" id="password" name="pwd" value="" placeholder="Password">
+15:19:20.349 [TestNG-tests-1] INFO  utils.Log - Called method <click()> on element <input type="submit" class="submit_button" value="Login">
+15:19:20.364 [TestNG-tests-1] INFO  utils.Log - Called <waitForElementToBeClickable><input type="submit" class="submit_button" value="Login">
+15:19:25.004 [TestNG-tests-1] INFO  utils.Log - Called method <click()> on element <li class="menu_user_logout"><a href="https://keybooks.ro/wp-login.php?action=logout&amp;redirect_to=https%3A%2F%2Fkeybooks.ro%2F&amp;_wpnonce=90981d659f" class="icon ">Logout</a></li>
+15:19:25.034 [TestNG-tests-1] INFO  utils.Log - Called <waitForElementToBeClickable><li class="menu_user_logout"><a href="https://keybooks.ro/wp-login.php?action=logout&amp;redirect_to=https%3A%2F%2Fkeybooks.ro%2F&amp;_wpnonce=90981d659f" class="icon ">Logout</a></li>
+15:19:25.880 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+15:19:25.880 [TestNG-tests-1] INFO  utils.Log - +++ Pass test case: loginTest
+15:19:25.880 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+15:19:25.881 [TestNG-tests-1] INFO  utils.Log - End time: 2022.11.11.15.19.25
+15:19:25.881 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+15:19:25.894 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+15:19:25.895 [TestNG-tests-1] INFO  utils.Log - +++ Started test case: invalidLoginTest
+15:19:25.895 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+15:19:25.895 [TestNG-tests-1] INFO  utils.Log - Start time: 2022.11.11.15.19.25
+15:19:25.895 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+15:19:26.052 [TestNG-tests-1] INFO  utils.Log - Called <waitForElementToBeVisible> on element <input type="text" id="log" name="log" value="" placeholder="Login or Email">
+15:19:26.096 [TestNG-tests-1] INFO  utils.Log - called <clear> on element <input type="text" id="log" name="log" value="" placeholder="Login or Email">
+15:19:26.152 [TestNG-tests-1] INFO  utils.Log - Called <sendKeys> on element <input type="text" id="log" name="log" value="" placeholder="Login or Email">
+15:19:26.248 [TestNG-tests-1] INFO  utils.Log - Called <waitForElementToBeVisible> on element <input type="password" id="password" name="pwd" value="" placeholder="Password">
+15:19:26.274 [TestNG-tests-1] INFO  utils.Log - called <clear> on element <input type="password" id="password" name="pwd" value="" placeholder="Password">
+15:19:26.351 [TestNG-tests-1] INFO  utils.Log - Called <sendKeys> on element <input type="password" id="password" name="pwd" value="" placeholder="Password">
+15:19:26.439 [TestNG-tests-1] INFO  utils.Log - Called method <click()> on element <input type="submit" class="submit_button" value="Login">
+15:19:26.455 [TestNG-tests-1] INFO  utils.Log - Called <waitForElementToBeClickable><input type="submit" class="submit_button" value="Login">
+15:19:36.612 [TestNG-tests-1] ERROR utils.Log - ++++++++++++++++++++++++++++++++++++
+15:19:36.612 [TestNG-tests-1] ERROR utils.Log - +++ Failed test case: invalidLoginTest
+15:19:36.612 [TestNG-tests-1] ERROR utils.Log - ++++++++++++++++++++++++++++++++++++
+15:19:36.612 [TestNG-tests-1] ERROR utils.Log - End time: 2022.11.11.15.19.36
+15:19:36.620 [TestNG-tests-1] ERROR utils.Log - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div[class*='sc_infobox_style_error']"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'SFTLCRPC085', ip: '192.168.101.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5d1bc41ef3c630040a0316aec2fdb33e, findElement {using=css selector, value=div[class*='sc_infobox_style_error']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\CRISTI~1.UNG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:49954}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49954/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5d1bc41ef3c630040a0316aec2fdb33e
+15:19:36.620 [TestNG-tests-1] ERROR utils.Log - ++++++++++++++++++++++++++++++++++++
+15:19:36.839 [TestNG-tests-1] ERROR utils.Log - could not save picture!
+15:19:36.839 [TestNG-tests-1] ERROR utils.Log - screenshots\invalidLoginTest.png (The system cannot find the path specified)
+15:19:37.279 [TestNG-tests-2] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+15:19:37.280 [TestNG-tests-2] INFO  utils.Log - +++ Started test case: loginTest
+15:19:37.280 [TestNG-tests-2] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+15:19:37.280 [TestNG-tests-2] INFO  utils.Log - Start time: 2022.11.11.15.19.37
+15:19:37.280 [TestNG-tests-2] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+15:19:37.423 [TestNG-tests-2] INFO  utils.Log - Called <waitForElementToBeVisible> on element <input type="text" id="log" name="log" value="" placeholder="Login or Email">
+15:19:37.481 [TestNG-tests-2] INFO  utils.Log - called <clear> on element <input type="text" id="log" name="log" value="" placeholder="Login or Email">
+15:19:37.531 [TestNG-tests-2] INFO  utils.Log - Called <sendKeys> on element <input type="text" id="log" name="log" value="" placeholder="Login or Email">
+15:19:37.616 [TestNG-tests-2] INFO  utils.Log - Called <waitForElementToBeVisible> on element <input type="password" id="password" name="pwd" value="" placeholder="Password">
+15:19:37.649 [TestNG-tests-2] INFO  utils.Log - called <clear> on element <input type="password" id="password" name="pwd" value="" placeholder="Password">
+15:19:37.712 [TestNG-tests-2] INFO  utils.Log - Called <sendKeys> on element <input type="password" id="password" name="pwd" value="" placeholder="Password">
+15:19:37.837 [TestNG-tests-2] INFO  utils.Log - Called method <click()> on element <input type="submit" class="submit_button" value="Login">
+15:19:37.854 [TestNG-tests-2] INFO  utils.Log - Called <waitForElementToBeClickable><input type="submit" class="submit_button" value="Login">
+15:19:41.781 [TestNG-tests-2] INFO  utils.Log - Called method <click()> on element <li class="menu_user_logout"><a href="https://keybooks.ro/wp-login.php?action=logout&amp;redirect_to=https%3A%2F%2Fkeybooks.ro%2F&amp;_wpnonce=f552d78f14" class="icon ">Logout</a></li>
+15:19:41.799 [TestNG-tests-2] INFO  utils.Log - Called <waitForElementToBeClickable><li class="menu_user_logout"><a href="https://keybooks.ro/wp-login.php?action=logout&amp;redirect_to=https%3A%2F%2Fkeybooks.ro%2F&amp;_wpnonce=f552d78f14" class="icon ">Logout</a></li>
+15:19:42.660 [TestNG-tests-2] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+15:19:42.660 [TestNG-tests-2] INFO  utils.Log - +++ Pass test case: loginTest
+15:19:42.661 [TestNG-tests-2] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+15:19:42.661 [TestNG-tests-2] INFO  utils.Log - End time: 2022.11.11.15.19.42
+15:19:42.661 [TestNG-tests-2] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+15:19:42.664 [TestNG-tests-2] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+15:19:42.665 [TestNG-tests-2] INFO  utils.Log - +++ Started test case: invalidLoginTest
+15:19:42.665 [TestNG-tests-2] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+15:19:42.667 [TestNG-tests-2] INFO  utils.Log - Start time: 2022.11.11.15.19.42
+15:19:42.668 [TestNG-tests-2] INFO  utils.Log - ++++++++++++++++++++++++++++++++++++
+15:19:42.765 [TestNG-tests-2] INFO  utils.Log - Called <waitForElementToBeVisible> on element <input type="text" id="log" name="log" value="" placeholder="Login or Email">
+15:19:43.303 [TestNG-tests-2] INFO  utils.Log - called <clear> on element <input type="text" id="log" name="log" value="" placeholder="Login or Email">
+15:19:43.348 [TestNG-tests-2] INFO  utils.Log - Called <sendKeys> on element <input type="text" id="log" name="log" value="" placeholder="Login or Email">
+15:19:43.412 [TestNG-tests-2] INFO  utils.Log - Called <waitForElementToBeVisible> on element <input type="password" id="password" name="pwd" value="" placeholder="Password">
+15:19:43.435 [TestNG-tests-2] INFO  utils.Log - called <clear> on element <input type="password" id="password" name="pwd" value="" placeholder="Password">
+15:19:43.470 [TestNG-tests-2] INFO  utils.Log - Called <sendKeys> on element <input type="password" id="password" name="pwd" value="" placeholder="Password">
+15:19:43.550 [TestNG-tests-2] INFO  utils.Log - Called method <click()> on element <input type="submit" class="submit_button" value="Login">
+15:19:43.561 [TestNG-tests-2] INFO  utils.Log - Called <waitForElementToBeClickable><input type="submit" class="submit_button" value="Login">
+15:19:53.686 [TestNG-tests-2] ERROR utils.Log - ++++++++++++++++++++++++++++++++++++
+15:19:53.686 [TestNG-tests-2] ERROR utils.Log - +++ Failed test case: invalidLoginTest
+15:19:53.686 [TestNG-tests-2] ERROR utils.Log - ++++++++++++++++++++++++++++++++++++
+15:19:53.687 [TestNG-tests-2] ERROR utils.Log - End time: 2022.11.11.15.19.53
+15:19:53.687 [TestNG-tests-2] ERROR utils.Log - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div[class*='sc_infobox_style_error']"}
+  (Session info: MicrosoftEdge=106.0.1370.37)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'SFTLCRPC085', ip: '192.168.101.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f960f79092964c837f43200d0fdb5b21, findElement {using=css selector, value=div[class*='sc_infobox_style_error']}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 106.0.1370.37, ms:edgeOptions: {debuggerAddress: localhost:49989}, msedge: {msedgedriverVersion: 106.0.1370.72 (cbf8e8ebe5c2..., userDataDir: C:\Users\CRISTI~1.UNG\AppDa...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49989/devtoo..., se:cdpVersion: 106.0.1370.37, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f960f79092964c837f43200d0fdb5b21
+15:19:53.688 [TestNG-tests-2] ERROR utils.Log - ++++++++++++++++++++++++++++++++++++
+15:19:53.823 [TestNG-tests-2] ERROR utils.Log - could not save picture!
+15:19:53.824 [TestNG-tests-2] ERROR utils.Log - screenshots\invalidLoginTest.png (The system cannot find the path specified)
